@@ -1,1 +1,2 @@
 # SafetyBag
+Be Rich
