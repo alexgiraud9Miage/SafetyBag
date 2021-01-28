@@ -191,7 +191,7 @@
               },
               "position": {
                 "x": 1008,
-                "y": 89
+                "y": 88
               },
               "angle": 0,
               "id": "6ff2e9cc-b4c4-4524-b3e9-13bc5862466f",
@@ -322,8 +322,8 @@
               },
               "vertices": [
                 {
-                  "x": 1451,
-                  "y": 365
+                  "x": 1471,
+                  "y": 466
                 }
               ],
               "id": "89c0fe3a-e64d-4cd8-bf5f-a6e332321dd3",
@@ -360,8 +360,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1492,
-                "y": 186
+                "x": 1560,
+                "y": 322
               },
               "angle": 0,
               "id": "d3bb756f-844b-4876-816c-d9919a07b706",
@@ -390,8 +390,8 @@
               },
               "vertices": [
                 {
-                  "x": 1356,
-                  "y": 288
+                  "x": 1448,
+                  "y": 364
                 }
               ],
               "id": "9510eed2-92fd-4aa9-82a9-a7e816fd10b6",
@@ -584,17 +584,17 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 1404,
-                "y": 193
+                "x": 1540,
+                "y": 286
               },
               "target": {
-                "x": 1545,
-                "y": 360
+                "x": 1581,
+                "y": 491
               },
               "vertices": [
                 {
-                  "x": 1446,
-                  "y": 302
+                  "x": 1487,
+                  "y": 408
                 }
               ],
               "id": "cddbd831-66b3-4f06-b31f-8dd7d1ac29d3",
@@ -715,8 +715,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1206,
-                "y": 376
+                "x": 1189,
+                "y": 389
               },
               "angle": 0,
               "id": "4dbf074a-2253-49b9-a0e7-290fbb859b6f",
@@ -1034,8 +1034,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1218,
-                "y": 685
+                "x": 1220,
+                "y": 683
               },
               "angle": 0,
               "id": "bb770f97-1dad-4107-be6e-cb51ab7e983a",
@@ -1136,6 +1136,263 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1447,
+                "y": 55
+              },
+              "angle": 0,
+              "id": "1d26c338-98a2-4272-88e3-e00d394532e2",
+              "z": 37,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1389,
+                "y": 14
+              },
+              "target": {
+                "x": 1433,
+                "y": 172
+              },
+              "vertices": [
+                {
+                  "x": 1348,
+                  "y": 108
+                }
+              ],
+              "id": "f5b63e63-6046-4bac-841b-b9ce336c53a4",
+              "z": 38,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1d26c338-98a2-4272-88e3-e00d394532e2"
+              },
+              "target": {
+                "id": "6ff2e9cc-b4c4-4524-b3e9-13bc5862466f"
+              },
+              "vertices": [
+                {
+                  "x": 1314,
+                  "y": 145
+                }
+              ],
+              "id": "691f7a24-8261-4df6-aee2-aecf5e12492b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Web App Query\nResults",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 39,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6ff2e9cc-b4c4-4524-b3e9-13bc5862466f"
+              },
+              "target": {
+                "id": "1d26c338-98a2-4272-88e3-e00d394532e2"
+              },
+              "vertices": [
+                {
+                  "x": 1293,
+                  "y": 42
+                }
+              ],
+              "id": "2682e015-4490-491a-a353-41a1f6834d59",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Queries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 40,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1606,
+                "y": 687
+              },
+              "angle": 0,
+              "id": "7cebbd48-016b-4a40-968c-9a2b59a5a4f7",
+              "z": 41,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7cebbd48-016b-4a40-968c-9a2b59a5a4f7"
+              },
+              "target": {
+                "id": "bb770f97-1dad-4107-be6e-cb51ab7e983a"
+              },
+              "vertices": [
+                {
+                  "x": 1487,
+                  "y": 675
+                }
+              ],
+              "id": "a14e8664-1f4b-4587-8020-d84e0e4b6360",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Web App Query\nResults",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 42,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "bb770f97-1dad-4107-be6e-cb51ab7e983a"
+              },
+              "target": {
+                "id": "7cebbd48-016b-4a40-968c-9a2b59a5a4f7"
+              },
+              "vertices": [
+                {
+                  "x": 1498,
+                  "y": 767
+                }
+              ],
+              "id": "0f56ed1b-cca3-4f6e-b325-dd4059a6da37",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4679703175227551,
+                    "offset": 1.5676157983424113
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Queries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 43,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1570,
+                "y": 645
+              },
+              "target": {
+                "x": 1591,
+                "y": 801
+              },
+              "vertices": [
+                {
+                  "x": 1529,
+                  "y": 723
+                }
+              ],
+              "id": "b2749a53-a894-4cf7-92fd-2368b54ef3da",
+              "z": 44,
+              "attrs": {}
             }
           ]
         },
