@@ -19,8 +19,8 @@
                 "y": 61
               },
               "target": {
-                "x": 971,
-                "y": 666
+                "x": 882,
+                "y": 807
               },
               "vertices": [
                 {
@@ -43,7 +43,7 @@
                 "id": "f40c8bf3-3171-4d9b-ad17-d93f1d3151f3"
               },
               "target": {
-                "id": "d005cfbf-4cf6-4d0d-a191-c1e8caa11730"
+                "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de"
               },
               "vertices": [
                 {
@@ -84,7 +84,7 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "d005cfbf-4cf6-4d0d-a191-c1e8caa11730"
+                "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de"
               },
               "target": {
                 "id": "f40c8bf3-3171-4d9b-ad17-d93f1d3151f3"
@@ -196,32 +196,6 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 304,
-                "y": 278
-              },
-              "angle": 0,
-              "id": "d005cfbf-4cf6-4d0d-a191-c1e8caa11730",
-              "z": 54,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Angular App"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
@@ -234,8 +208,8 @@
               },
               "vertices": [
                 {
-                  "x": 1410,
-                  "y": 544
+                  "x": 1282,
+                  "y": 690
                 }
               ],
               "id": "5ef8b7fc-24e1-48db-b72f-84da5c73a49b",
@@ -332,8 +306,8 @@
                 "height": 80
               },
               "position": {
-                "x": 937,
-                "y": 418
+                "x": 880,
+                "y": 608
               },
               "angle": 0,
               "id": "b53e169f-7e8a-4576-9ea9-ba4b13a029f5",
@@ -358,7 +332,7 @@
                 "id": "b53e169f-7e8a-4576-9ea9-ba4b13a029f5"
               },
               "target": {
-                "id": "d005cfbf-4cf6-4d0d-a191-c1e8caa11730"
+                "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de"
               },
               "vertices": [
                 {
@@ -579,12 +553,12 @@
                 "id": "ae0bfb9b-77f6-4e84-a0b4-10bde3655704"
               },
               "target": {
-                "id": "b53e169f-7e8a-4576-9ea9-ba4b13a029f5"
+                "id": "8e9f0775-b3c5-4eb4-8ceb-57f558624c10"
               },
               "vertices": [
                 {
-                  "x": 1337,
-                  "y": 382
+                  "x": 1509,
+                  "y": 432
                 }
               ],
               "id": "adfbf021-b255-48d8-b6f8-f9cb0f8682f1",
@@ -618,8 +592,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1599,
-                "y": 712
+                "x": 1800,
+                "y": 705
               },
               "angle": 0,
               "id": "88851010-7f8d-4adc-a9b6-04e1ba2c99ba",
@@ -648,8 +622,8 @@
               },
               "vertices": [
                 {
-                  "x": 1539,
-                  "y": 578
+                  "x": 1749,
+                  "y": 552
                 }
               ],
               "id": "1799e3d6-a936-4d06-af90-6cd930becb6e",
@@ -691,8 +665,8 @@
               },
               "vertices": [
                 {
-                  "x": 1699,
-                  "y": 561
+                  "x": 1870,
+                  "y": 497
                 }
               ],
               "id": "83ee739c-4923-4535-80cf-8e36b9082b55",
@@ -856,6 +830,124 @@
               "z": 82,
               "hasOpenThreats": false,
               "threats": [],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1358,
+                "y": 535
+              },
+              "angle": 0,
+              "id": "8e9f0775-b3c5-4eb4-8ceb-57f558624c10",
+              "z": 83,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Images"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 325,
+                "y": 312
+              },
+              "angle": 0,
+              "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de",
+              "z": 84,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Browser"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 972,
+                "y": 406
+              },
+              "angle": 0,
+              "id": "df7b7426-d4ca-45d4-8b5c-581b6f1f8192",
+              "z": 85,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Angular App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "df7b7426-d4ca-45d4-8b5c-581b6f1f8192"
+              },
+              "target": {
+                "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de"
+              },
+              "vertices": [
+                {
+                  "x": 801,
+                  "y": 467
+                }
+              ],
+              "id": "f5a4ef7c-c094-47e1-9ee1-b9f2ed26cb82",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 86,
+              "hasOpenThreats": false,
+              "protocol": "HTTP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
