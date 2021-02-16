@@ -15,18 +15,14 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 783,
-                "y": 61
+                "x": 847,
+                "y": 3
               },
               "target": {
                 "x": 882,
                 "y": 807
               },
               "vertices": [
-                {
-                  "x": 808,
-                  "y": 28
-                },
                 {
                   "x": 692,
                   "y": 299
