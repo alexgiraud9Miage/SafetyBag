@@ -151,7 +151,7 @@
               },
               "position": {
                 "x": 955,
-                "y": 234
+                "y": 232
               },
               "angle": 0,
               "id": "f40c8bf3-3171-4d9b-ad17-d93f1d3151f3",
@@ -188,7 +188,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "REST API"
+                  "text": "REST API FO"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -527,8 +527,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1565,
-                "y": 306
+                "x": 1566,
+                "y": 305
               },
               "angle": 0,
               "id": "ae0bfb9b-77f6-4e84-a0b4-10bde3655704",
@@ -539,7 +539,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "REST API"
+                  "text": "REST API BO"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -948,6 +948,71 @@
               "z": 86,
               "hasOpenThreats": false,
               "protocol": "HTTP",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1951,
+                "y": 419
+              },
+              "angle": 0,
+              "id": "54979fc3-57d8-4ea2-abdd-c8f4d032bfe1",
+              "z": 87,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Angular App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "54979fc3-57d8-4ea2-abdd-c8f4d032bfe1"
+              },
+              "target": {
+                "id": "88851010-7f8d-4adc-a9b6-04e1ba2c99ba"
+              },
+              "vertices": [
+                {
+                  "x": 1976,
+                  "y": 610
+                }
+              ],
+              "id": "95cf9688-e9b3-4916-8cf7-e30d122fe589",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 88,
+              "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
