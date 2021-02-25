@@ -219,8 +219,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1055,
-                "y": 21
+                "x": 1045,
+                "y": 47
               },
               "angle": 0,
               "id": "92435287-c6c0-405b-937e-6122e5b252a7",
@@ -1008,6 +1008,71 @@
                 }
               ],
               "z": 88,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 254,
+                "y": 83
+              },
+              "angle": 0,
+              "id": "0a6424f9-8265-47b8-9671-d2e3b68b9993",
+              "z": 89,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Angular App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0a6424f9-8265-47b8-9671-d2e3b68b9993"
+              },
+              "target": {
+                "id": "fe07fb1b-faba-4fc0-a626-209cd0b8d6de"
+              },
+              "vertices": [
+                {
+                  "x": 322,
+                  "y": 245
+                }
+              ],
+              "id": "50e61074-9524-496d-ae37-b21fd3b59b30",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 90,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
